@@ -2052,6 +2052,365 @@
 				)
 			)
 		)
+		(symbol "MP1584EN:MP1584EN"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -10.185 10.6942 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "MP1584EN"
+				(at -10.1723 -12.7154 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "MP1584EN:SOIC127P600X170-9N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Monolithic Power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "DESCRIPTION" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PACKAGE" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PRICE" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "SOIC-8 Monolithic Power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/MP1584EN/Monolithic+Power+Systems+Inc./view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "IPC-7351B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MP1584EN/Monolithic+Power+Systems+Inc./view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "MP1584EN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "AVAILABILITY" "Unavailable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\nBuck Switching Regulator IC Positive Adjustable 0.8V 1 Output 3A 8-SOIC (0.154, 3.90mm Width) Exposed Pad\n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "MP1584EN_0_0"
+				(rectangle
+					(start -10.16 -10.16)
+					(end 10.16 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 15.24 5.08 180)
+					(length 5.08)
+					(name "SW"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "COMP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "FB"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -5.08 0)
+					(length 5.08)
+					(name "FREQ"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 5.08 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "BST"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -3630,7 +3989,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 68.58) (xy 81.28 68.58)
+			(xy 67.31 99.06) (xy 71.12 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3640,7 +3999,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 66.04) (xy 87.63 66.04)
+			(xy 67.31 96.52) (xy 77.47 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3660,7 +4019,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 83.82) (xy 83.82 83.82)
+			(xy 67.31 114.3) (xy 73.66 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3700,7 +4059,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 124.46) (xy 87.63 119.38)
+			(xy 77.47 154.94) (xy 77.47 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3827,6 +4186,16 @@
 			(type default)
 		)
 		(uuid "9046e481-d2c6-472e-86d8-4366fcda53e4")
+	)
+	(wire
+		(pts
+			(xy 69.85 67.31) (xy 78.74 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98f13d80-e769-4709-b375-0d6093c51152")
 	)
 	(wire
 		(pts
@@ -3990,7 +4359,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 66.04) (xy 87.63 58.42)
+			(xy 77.47 96.52) (xy 77.47 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4000,7 +4369,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 81.28) (xy 83.82 81.28)
+			(xy 67.31 111.76) (xy 73.66 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4030,7 +4399,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 119.38) (xy 77.47 119.38)
+			(xy 77.47 149.86) (xy 67.31 149.86)
 		)
 		(stroke
 			(width 0)
@@ -4087,6 +4456,16 @@
 			(type default)
 		)
 		(uuid "ec0ec645-521e-4a3d-a902-2ea91c848489")
+	)
+	(wire
+		(pts
+			(xy 30.48 54.61) (xy 39.37 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee0bf9f2-8e11-4942-840a-cf18ddb63043")
 	)
 	(wire
 		(pts
@@ -4204,6 +4583,28 @@
 	)
 	(global_label "GND"
 		(shape input)
+		(at 78.74 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3b506458-b80a-4bb7-a269-af36d5b61391")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.5957 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
 		(at 229.87 80.01 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4226,7 +4627,7 @@
 	)
 	(global_label "+24V"
 		(shape input)
-		(at 81.28 68.58 0)
+		(at 71.12 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4236,7 +4637,7 @@
 		)
 		(uuid "74801c73-96f1-4de2-84ae-b48efaf14cba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.3452 68.58 0)
+			(at 79.1852 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4286,6 +4687,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+24V"
+		(shape input)
+		(at 30.48 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0780232-c758-4e65-b6e7-cc327522b6c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.4148 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4449,33 +4872,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Custom:DRV8313PWP")
-		(at 59.69 91.44 0)
+		(lib_id "MP1584EN:MP1584EN")
+		(at 54.61 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2dd06f0f-6f0a-417c-ae96-2bde24b970c0")
-		(property "Reference" "U1"
-			(at 59.69 55.88 0)
+		(uuid "0e5c7218-1012-4fa0-96f4-9d14d19dd62d")
+		(property "Reference" "U4"
+			(at 54.61 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "DRV8313PWP"
-			(at 59.69 58.42 0)
+		(property "Value" "MP1584EN"
+			(at 54.61 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Custom:SOP65P640X120-29N"
-			(at 59.69 91.44 0)
+		(property "Footprint" "MP1584EN:SOIC127P600X170-9N"
+			(at 54.61 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4485,7 +4908,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 91.44 0)
+			(at 54.61 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4494,7 +4917,227 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 91.44 0)
+			(at 54.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Monolithic Power"
+			(at 54.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 54.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 54.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 54.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOIC-8 Monolithic Power"
+			(at 54.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MP1584EN/Monolithic+Power+Systems+Inc./view-part/?ref=eda"
+			(at 54.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 54.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MP1584EN/Monolithic+Power+Systems+Inc./view-part/?ref=snap"
+			(at 54.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "MP1584EN"
+			(at 54.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 54.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 54.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 54.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nBuck Switching Regulator IC Positive Adjustable 0.8V 1 Output 3A 8-SOIC (0.154, 3.90mm Width) Exposed Pad\n"
+			(at 54.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5b81559-fe21-469a-bfd0-69a9ff7a1360")
+		)
+		(pin "5"
+			(uuid "1672d51a-fdcd-44a2-9d82-effc5b87e22f")
+		)
+		(pin "8"
+			(uuid "ea16f1ea-c594-42d6-b1e5-166a816e853e")
+		)
+		(pin "4"
+			(uuid "bc7023a4-bacb-4373-8bbf-5240abf871e6")
+		)
+		(pin "3"
+			(uuid "a3dab3d7-93d2-439d-b927-21ae03379f7b")
+		)
+		(pin "9"
+			(uuid "1e53f39a-d07f-43f2-8243-01f51597ff20")
+		)
+		(pin "6"
+			(uuid "e427c24b-e24d-4443-a340-b64730449fc5")
+		)
+		(pin "7"
+			(uuid "f1fd0406-4cb7-4418-b8e5-68d703f2687d")
+		)
+		(pin "2"
+			(uuid "0ce4289b-cec6-4703-9f20-9c40c5a3d9b2")
+		)
+		(instances
+			(project "ESP32_Solenoid"
+				(path "/621a8796-d45e-4eb3-9402-13ad0ac761b3"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom:DRV8313PWP")
+		(at 49.53 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2dd06f0f-6f0a-417c-ae96-2bde24b970c0")
+		(property "Reference" "U1"
+			(at 49.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DRV8313PWP"
+			(at 49.53 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom:SOP65P640X120-29N"
+			(at 49.53 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4503,7 +5146,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "296-35540-5-ND"
-			(at 59.69 91.44 0)
+			(at 49.53 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4513,7 +5156,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DRV8313PWP/Texas+Instruments/view-part/?ref=snap"
-			(at 59.69 91.44 0)
+			(at 49.53 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4523,7 +5166,7 @@
 			)
 		)
 		(property "SNAPEDA_PACKAGE_ID" "102627"
-			(at 59.69 91.44 0)
+			(at 49.53 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4533,7 +5176,7 @@
 			)
 		)
 		(property "Package" "HTSSOP-28 Texas Instruments"
-			(at 59.69 91.44 0)
+			(at 49.53 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4543,7 +5186,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/DRV8313PWP/Texas+Instruments/view-part/?ref=eda"
-			(at 59.69 91.44 0)
+			(at 49.53 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4553,7 +5196,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 59.69 91.44 0)
+			(at 49.53 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4563,7 +5206,7 @@
 			)
 		)
 		(property "PARTREV" "D"
-			(at 59.69 91.44 0)
+			(at 49.53 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4573,7 +5216,7 @@
 			)
 		)
 		(property "MF" "Texas Instruments"
-			(at 59.69 91.44 0)
+			(at 49.53 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4583,7 +5226,7 @@
 			)
 		)
 		(property "MP" "DRV8313PWP"
-			(at 59.69 91.44 0)
+			(at 49.53 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4593,7 +5236,7 @@
 			)
 		)
 		(property "Description_1" "\n65-V max 3-A peak 3-phase motor driver with integrated FETs\n"
-			(at 59.69 91.44 0)
+			(at 49.53 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4603,7 +5246,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Texas Instruments"
-			(at 59.69 91.44 0)
+			(at 49.53 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4613,7 +5256,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.2 mm"
-			(at 59.69 91.44 0)
+			(at 49.53 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5192,7 +5835,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 87.63 58.42 0)
+		(at 77.47 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5200,7 +5843,7 @@
 		(dnp no)
 		(uuid "5d193c6a-0113-4bdf-a91d-d815061e53fc")
 		(property "Reference" "#PWR03"
-			(at 87.63 62.23 0)
+			(at 77.47 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5209,7 +5852,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 87.63 53.34 0)
+			(at 77.47 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5217,7 +5860,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 58.42 0)
+			(at 77.47 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5226,7 +5869,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 58.42 0)
+			(at 77.47 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5235,7 +5878,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 87.63 58.42 0)
+			(at 77.47 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5540,7 +6183,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 87.63 124.46 0)
+		(at 77.47 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5549,7 +6192,7 @@
 		(fields_autoplaced yes)
 		(uuid "748bf715-0310-470e-8c27-157d64dc0ccc")
 		(property "Reference" "#PWR04"
-			(at 87.63 130.81 0)
+			(at 77.47 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5558,7 +6201,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.63 129.54 0)
+			(at 77.47 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5566,7 +6209,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 124.46 0)
+			(at 77.47 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5575,7 +6218,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 124.46 0)
+			(at 77.47 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5584,7 +6227,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 124.46 0)
+			(at 77.47 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5671,7 +6314,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 88.9 81.28 0)
+		(at 78.74 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5679,7 +6322,7 @@
 		(dnp no)
 		(uuid "8915f6d5-5b32-47a2-8b13-c48913515251")
 		(property "Reference" "J4"
-			(at 90.17 81.2799 0)
+			(at 80.01 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5688,7 +6331,7 @@
 			)
 		)
 		(property "Value" "Solenoid"
-			(at 90.17 83.8199 0)
+			(at 80.01 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5697,7 +6340,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 88.9 81.28 0)
+			(at 78.74 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5706,7 +6349,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 81.28 0)
+			(at 78.74 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5715,7 +6358,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 88.9 81.28 0)
+			(at 78.74 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
